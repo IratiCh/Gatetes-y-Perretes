@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name "description" content="Petinder es una organización que fomenta la adopción de perros y gatos">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Hazte socio</title>
+</head>
+
+<body class="page-join">
+    <header>
+        <nav class="container">
+            <a class="link-logo" href="index.html">
+                <img class="logo" src="images/logo.svg" alt="Logo Petinder">
+            </a>
+            <ul class="menu-links">
+                <li><a href="about.html">Sobre petinder</a></li>
+                <li><a href="tshirt.html">Camiseta</a></li>
+                <li><a href="">Hazte socio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1 class="tittle">Hazte socio</h2>
+            <p>Colabora con Petinder haciéndote socio por solo 15 euros mensuales. Con muy poco puedes ayudar mucho a nuestros amigos peludos. Además puedes comprar nuestra exclusiva camiseta por solo 10 euros que se añadirán al primer pago. Rellena el siguiente formulario para unirte a nosotros:</p>
+        
+            <form>
+                <fieldset>
+                    <legend class="cabecera">Datos Personales</legend>
+                        <label>Nombre <span>*</span></label>
+                        <input type="text" placeholder="Nombre" required>
+                        <label>Apellidos <span>*</span></label>
+                        <input type="text" placeholder="Apellidos" required>
+                        <label>Correo electrónico <span>*</span></label>
+                        <input type="email" placeholder="Correo electrónico" required>
+                        <label>DNI <span>*</span></label>
+                        <input type="text" placeholder="DNI" required>
+                        <label>Fecha de nacimiento</label>
+                        <input type="date">
+                </fieldset>
+                <fieldset>
+                    <legend>Dirección</legend>
+                        <label>Calle y número <span>*</span></label>
+                        <input type="text" placeholder="Calle y número" required>
+                        <label>Ciudad <span>*</span></label>
+                        <input type="text" placeholder="Ciudad" required>
+                        <label>Provincia <span>*</span></label>
+                        <input type="text" placeholder="Provincia" required>
+                        <label>Código Postal <span>*</span></label>
+                        <input type="text" placeholder="Código postal" required>
+                        <label>País</label>
+                        <select>
+                            <option selected value"">Seleccionar</option>
+                            <option value"andorra">Andorra</option>
+                            <option value"españa">España</option>
+                            <option value"francia">Francia</option>
+                            <option value"otro">Otro</option>
+                        </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de pago y camiseta</legend>
+                        <label>Método de pago</label>
+                        <input type="radio" name="pago" value="Transferencia" checked>
+                        <label for="Transferencia" class="radio">Transferencia</label>
+                        <input type="radio" name="pago" value="Tarjeta de crédito">
+                        <label for="Tarjeta de crédito" class="radio">Tarjeta de crédito</label>
+                        <input type="radio" name="pago" value="Paypal">
+                        <label for="Paypal" class="radio">Paypal</label>
+                        <label class="pagoCami">Camiseta</label>
+                        <p class="camiseta">Si quieres que te enviemos la camiseta Petinder por 10€ más, selecciona la talla a continuación</p>
+                        <label>Talla camiseta</label>
+                        <select>
+                            <option selected>No quiero camiseta</option>
+                            <optgroup label="Mujeres">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            <optgroup label="Hombres">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                                <option>XXL</option>
+                                <option>XXXL</option>
+                        </select>
+                </fieldset>
+                <p class="obligatorio">* Todos los campos marcados son obligatorios</p>
+                <p>
+                    <input type="checkbox" required>
+                    He leído y acepto la política de privacidad y las condiciones de uso
+                </p>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <span>2021 © Petinder - Irati Chavero Astrain</span>
+            <ul class="legal-links">
+                <li><a href="">Términos y condiciones</a></li>
+                <li><a href="">Política de privacidad</a></li>
+                <li><a href="">Cookies</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
