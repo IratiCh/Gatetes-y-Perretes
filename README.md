@@ -7,6 +7,7 @@ Este proyecto consiste en el desarrollo de una página web utilizando HTML semá
 # Estructura del proyecto
 
 index.html   # Página principal
+
 about.html   # Página con información sobre el sitio web
 tshirt.html   # Página con información sobre el tallaje de las camisetas
 join.css   # Página para hacerse socio con varios formularios
