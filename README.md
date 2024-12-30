@@ -1,4 +1,4 @@
-# Gatetes-y-Perretes
+# Gatetes y Perretes
 
 # Descripción
 
@@ -6,7 +6,7 @@ Este proyecto consiste en el desarrollo de una página web utilizando HTML semá
 
 # Estructura del proyecto
 
-index.html   # Página principal
+index.html	# Página principal
 
 about.html   # Página con información sobre el sitio web
 
