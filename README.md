@@ -9,7 +9,11 @@ Este proyecto consiste en el desarrollo de una página web utilizando HTML semá
 index.html   # Página principal
 
 about.html   # Página con información sobre el sitio web
+
 tshirt.html   # Página con información sobre el tallaje de las camisetas
+
 join.css   # Página para hacerse socio con varios formularios
+
 images/   # Carpeta con imagenes utilizadas para la página
+
 css/estilos.css   # Archivo de estilos
